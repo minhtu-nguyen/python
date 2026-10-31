@@ -18,3 +18,4 @@ class Member:
     def __post_init__(self):
         if not self.member_id.strip() or not self.name.strip():
             raise ValueError("Member ID and name are required")
+    
